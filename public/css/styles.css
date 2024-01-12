@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(99, 98, 98);
+}
+
+header {
+    background-color: #eac926;
+}
+
+.header_top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header_top img {
+    width: 200px;
+}
+
+.header_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header_bottom ul {
+    display: flex;
+}
+
+/* main */
+.banner {
+    width: 100%;
+}
+
+section div article img {
+    width: 150px;
+}
+
+/*
+● Entre cada artículo hay una separación de 10 píxeles.
+● Nos piden que manejemos el logo del envío, el precio, el porcentaje de descuento
+y la descripción del artículo como elementos de una caja dentro de la caja general
+del artículo.
+● Nos piden que la misma tenga un borde superior de 1 píxel, línea sólida y color
+#ebebeb.
+● Debe tener separado el contenido de sus bordes en 15 píxeles en cada uno de sus
+lados.*/
